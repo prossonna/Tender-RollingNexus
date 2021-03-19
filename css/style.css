@@ -125,3 +125,197 @@ p.deadline {
     margin: 20px;
     color: #2081c5;
 }
+
+
+/* About Rolling Tender */
+section#about-rollingTender {
+    padding: 30px;
+}
+.category-heading-wrap2 {
+    margin: 40px 0 20px;
+}
+p.category-heading-p2 {
+    font-size: 22px;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+span.r-t2 {
+    background: #ff9a55;
+    padding: 3px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+p.rolling-tender-p {
+    word-spacing: 2px;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+.rolling-tender-image {
+    position: relative;
+    padding-top: 20px;
+}
+.rolling-tender-outer {
+    border: 3px solid #000;
+    height: 280px;
+    position: absolute;
+    width: 300px;
+    z-index: -1;
+    right: 110px;
+    top: 20px;
+}
+img.img-rolling-tender {
+    width: 300px;
+    height: 320px;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+/* How its work */
+section#tender-work {
+    background: #F0EAD9;
+    padding: 15px;
+}
+.tender-work-wrap {
+    padding-right: 10px;
+}
+.divider {
+    padding: 2px;
+    background: grey;
+    width: 2px;
+    height: 280px;
+    position: absolute;
+    right: -20px;
+    top: 50px;
+}
+
+/* How to Use */
+.tender-use-details {
+    padding: 15px;
+}
+img.img-tender-use {
+    width: 100%;
+}
+
+/* Tender Benefits */
+p.t-b-p {
+    text-align: center;
+    line-height: 25px;
+}
+.t-benefits-categories {
+    padding: 25px 0;
+}
+.t-benefits-wrap {
+    text-align: center;
+    padding: 20px 10px 10px;
+    border: 1px solid #666;
+    width: 100%;
+}
+.t-benefits-wrap:hover {
+    box-shadow: 1px 2px 10px 2px #666;
+}
+img.img-t-category {
+    width: 80px;
+}
+p.t-benefits-title {
+    font-size: 18px;
+    margin: 10px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+
+/* Payment Plan */
+section#tender-plan {
+    background: #F3E4D6;
+    padding: 20px 0;
+}
+.payment-plan {
+    padding: 30px 0;
+}
+.payment-plan-wrap1, .payment-plan-wrap2, .payment-plan-wrap3 {
+    width: 80%;
+    margin: auto;
+    background: #FFF;
+    border-radius: 0 0 15px 15px;
+    transition: transform 0.5s;
+}
+.payment-plan-wrap1:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 2px 5px 1px #666;
+    background: linear-gradient(
+63deg
+, #C6C6C6, #E967FB);
+    color: #FFF;
+    transition: all 0.5s;
+}
+.payment-plan-wrap2:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 2px 5px 1px #666;
+    background: linear-gradient(
+63deg
+, #D97D2E, #E967FB);
+    color: #FFF;
+    transition: all 0.5s;
+}
+.payment-plan-wrap3:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 2px 5px 1px #666;
+    background: linear-gradient(
+63deg
+, #ED2EAB, #E967FB);
+    color: #FFF;
+    transition: all 0.5s;
+}
+.payment-plan-wrap3:hover .payment-heading-box {
+    box-shadow: 1px 2px 5px 1px #666;
+}
+.payment-detail {
+    padding: 25px 0;
+}
+.payment-heading-box {
+    background: #FF9A55;
+    position: relative;
+    left: -10px;
+    top: 10px;
+    width: 107%;
+}
+.payment-heading-p {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+.payment-plan-img {
+    text-align: center;
+}
+img.img-payment-plan {
+    width: 110px;
+    height: 110px;
+}
+p.payment-r {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+span.payment-sign {
+    font-size: 30px;
+    padding: 10px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    color: #ff9a55;
+}
+.btn-payment-plan {
+    text-align: center;
+    padding: 15px;
+}
+button.btn-plan {
+    border: none;
+    padding: 7px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px #666;
+    outline: none;
+}
