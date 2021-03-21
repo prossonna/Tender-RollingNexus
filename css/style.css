@@ -42,7 +42,7 @@ img.img-btn-search {
     height: 75px;
 }
 .bnr-search {
-    width: auto;
+    width: 100%;
     background: #c9cdd0ad;
     margin: 10px;
     padding: 10px 40px;
@@ -52,7 +52,7 @@ img.img-btn-search {
     margin-left: 10px;
 }
 .search-ten input[type="search"] {
-    width: 130px;
+    width: 100%;
     border: none;
     background: transparent;
     outline: none;
@@ -76,6 +76,7 @@ p.search-title {
     left: 360px;
     border: 4px solid #FFF;
     text-align: center;
+    display: none;
 }
 img.img-middle {
     width: 55%;
@@ -129,7 +130,7 @@ p.deadline {
 
 /* About Rolling Tender */
 section#about-rollingTender {
-    padding: 30px;
+    padding: 30px 10px;
 }
 .category-heading-wrap2 {
     margin: 40px 0 20px;
@@ -174,7 +175,7 @@ img.img-rolling-tender {
 /* How its work */
 section#tender-work {
     background: #F0EAD9;
-    padding: 15px;
+    padding: 15px 10px;
 }
 .tender-work-wrap {
     padding-right: 10px;
@@ -187,6 +188,10 @@ section#tender-work {
     position: absolute;
     right: -20px;
     top: 50px;
+}
+.vdo-sec {
+    padding-top: 40px; 
+    padding-left: 50px;
 }
 
 /* How to Use */
@@ -210,6 +215,7 @@ p.t-b-p {
     padding: 20px 10px 10px;
     border: 1px solid #666;
     width: 100%;
+    margin-bottom: 10px;
 }
 .t-benefits-wrap:hover {
     box-shadow: 1px 2px 10px 2px #666;
@@ -266,6 +272,12 @@ section#tender-plan {
 , #ED2EAB, #E967FB);
     color: #FFF;
     transition: all 0.5s;
+}
+.payment-plan-wrap1:hover .payment-heading-box {
+    box-shadow: 1px 2px 5px 1px #666;
+}
+.payment-plan-wrap2:hover .payment-heading-box {
+    box-shadow: 1px 2px 5px 1px #666;
 }
 .payment-plan-wrap3:hover .payment-heading-box {
     box-shadow: 1px 2px 5px 1px #666;

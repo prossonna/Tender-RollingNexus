@@ -1,0 +1,171 @@
+@media only screen and (max-width: 600px) {
+    .banner-content {
+        padding-top: 100px;
+    }
+    h2.banner-header {
+        font-size: 18px;
+    }
+    p.search-title {
+        font-size: 16px;
+    }
+    .bnr-search {
+        padding: 10px 20px;
+    }
+    .search-ten input[type="search"]::placeholder {
+        font-size: 13px;
+    }
+    p.banner-header-p {
+        font-size: 12px;
+    }
+    .banner-search-wrap {
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    img.img-btn-search {
+        width: 50px;
+        height: 50px;
+    }
+    .vdo-sec iframe {
+        width: 100%;
+        height: 200px;
+    }
+    .vdo-sec {
+        padding: unset;
+    }
+    img.img-t-category {
+        width: 50px;
+    }
+    .t-benefits-wrap {
+        margin-top: 10px;
+        height: 150px;
+    }
+    .payment-plan-wrap1, .payment-plan-wrap2, .payment-plan-wrap3 {
+        margin-bottom: 20px;
+    }
+    .rolling-tender-outer {
+        height: 265px;
+        width: 90%;
+        right: 0;
+    }
+    img.img-rolling-tender {
+        width: 90%;
+        height: 300px;
+    }
+    .t-benefits-categories {
+        padding: 25px 10px;
+    }
+    p.t-benefits-title {
+        font-size: 16px;
+    }
+    .divider {
+        display: none;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    .rolling-tender-image {
+        text-align: center;
+    }
+    .rolling-tender-outer {
+        right: 70px;
+    }
+    .vdo-sec {
+       padding: unset;
+    }
+    .vdo-sec iframe {
+        width: 100%;
+    }
+    .divider {
+        display: none;
+    }
+    .payment-plan-wrap1, .payment-plan-wrap2, .payment-plan-wrap3 {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+    .payment-detail ul {
+        padding-left: 25px;
+        padding-right: 10px;
+    }
+    .bnr-search {
+        padding: 10px 20px;
+    }
+    img.img-btn-search {
+        width: 60px;
+        height: 60px;
+    }
+    p.search-title {
+        font-size: 16px;
+    }
+    .search-ten input[type="search"]::placeholder {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .vdo-sec {
+        padding-left: 10px;
+    }
+    .vdo-sec iframe {
+        width: 100%;
+        height: 365px;
+    }
+    .divider {
+        display: none;
+    }
+    .t-benefits-wrap {
+        height: 180px;
+    }
+    .rolling-tender-outer {
+        border: 3px solid #000;
+        height: 250px;
+        position: absolute;
+        width: 90%;
+        z-index: -1;
+        right: 0;
+        top: 70px;
+    }
+    .rolling-tender-image {
+        position: relative;
+        padding-top: 60px;
+    }
+    img.img-rolling-tender {
+        width: 90%;
+        height: 300px;
+        background-size: cover;
+        padding-top: 50px;
+    }
+    .img-notices {
+        width: 100%;
+        height: 140px;
+    }
+    .notices {
+        display: flow-root;
+        height: 300px;
+    }
+    .tender-use-img {
+        text-align: center;
+    }
+    img.img-tender-use {
+        width: 70%;
+    }
+    .bnr-search {
+        padding: 10px 20px;
+    }
+    img.img-btn-search {
+        width: 50px;
+        height: 60px;
+    }
+    .payment-heading-box {
+        width: 111%;
+    }
+    .payment-plan-wrap1, .payment-plan-wrap2, .payment-plan-wrap3 {
+        width: 95%;
+    }
+    img.img-payment-plan {
+        width: 100px;
+        height: 100px;
+    }
+    .payment-detail ul {
+        padding-left: 25px;
+    }
+
+}
