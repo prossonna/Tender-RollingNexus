@@ -48,6 +48,9 @@ img.img-btn-search {
     padding: 10px 40px;
     display: flex;
 }
+.bnr-search:hover {
+    background: #ffffffb0;
+}
 .search-ten {
     margin-left: 10px;
 }
@@ -193,6 +196,37 @@ section#tender-work {
     padding-top: 40px; 
     padding-left: 50px;
 }
+.bs-example {
+    height: 300px;
+    width: 490px;
+    background-size: cover;
+}
+.modal-dialog iframe{
+    margin: 0 auto;
+    display: block;
+}
+a.btn.btn-primary.btn-lg {
+    position: absolute;
+    top: 47%;
+    left: 49%;
+    border-radius: 5px;
+}
+.bs-example .btn-primary {
+    background-color: #424242b3;
+    border: none;
+    padding: 5px 25px;
+    font-size: 25px;
+}
+.bs-example .btn-primary:hover {
+    background-color: #e22424e3;
+}
+.bs-example .btn:focus {
+    box-shadow: unset;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: #424242b3;
+    border: none;
+}
 
 /* How to Use */
 .tender-use-details {
@@ -307,16 +341,17 @@ img.img-payment-plan {
 }
 p.payment-r {
     text-align: center;
-    font-size: 18px;
-    padding: 10px;
+    font-size: 22px;
+    /* padding: 10px; */
+    color: #ff9a55;
 }
 span.payment-sign {
-    font-size: 30px;
-    padding: 10px;
-    position: relative;
+    font-size: 14px;
+    padding: 10px 5px;
+    /* position: relative;
     top: -10px;
     left: -10px;
-    color: #ff9a55;
+    color: #ff9a55; */
 }
 .btn-payment-plan {
     text-align: center;
@@ -330,4 +365,9 @@ button.btn-plan {
     border-radius: 20px;
     box-shadow: 1px 1px 5px 1px #666;
     outline: none;
+}
+
+/*  */
+.plan-category {
+    padding: 0 20px;
 }

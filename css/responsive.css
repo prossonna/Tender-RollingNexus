@@ -60,6 +60,14 @@
     .divider {
         display: none;
     }
+    .bs-example {
+        height: 200px;
+        width: 100%;
+    }
+    a.btn.btn-primary.btn-lg {
+        top: 40%;
+        left: 40%;
+    }
 }
 @media only screen and (min-width: 601px) and (max-width: 767px) {
     .rolling-tender-image {
@@ -73,6 +81,14 @@
     }
     .vdo-sec iframe {
         width: 100%;
+    }
+    .bs-example {
+        height: 300px;
+        width: 100%;
+    }
+    a.btn.btn-primary.btn-lg {
+        top: 45%;
+        left: 45%;
     }
     .divider {
         display: none;
@@ -107,6 +123,14 @@
     .vdo-sec iframe {
         width: 100%;
         height: 365px;
+    }
+    .bs-example {
+        height: 350px;
+        width: 100%;
+    }
+    a.btn.btn-primary.btn-lg {
+        top: 55%;
+        left: 46%;
     }
     .divider {
         display: none;
