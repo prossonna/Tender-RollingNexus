@@ -227,6 +227,9 @@ a.btn.btn-primary.btn-lg {
     background-color: #424242b3;
     border: none;
 }
+.modal-body {
+    padding: unset;
+}
 
 /* How to Use */
 .tender-use-details {
