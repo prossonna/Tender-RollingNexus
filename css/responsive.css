@@ -71,6 +71,23 @@
     p.t-b-p {
         text-align: justify;
     }
+
+
+    /* Notice Details */
+    .tender-notice-list {
+        padding: 30px 10px;
+    }
+    .tender-1_1 {
+        display: flow-root;
+    }
+    img.img-tender-1_1 {
+        width: 100%;
+        height: 250px;
+    }
+    p.publish-date {
+        right: 10px;
+        top: 0;
+    }
 }
 @media only screen and (min-width: 601px) and (max-width: 767px) {
     .rolling-tender-image {
@@ -116,6 +133,19 @@
     }
     .search-ten input[type="search"]::placeholder {
         font-size: 13px;
+    }
+
+    /* Notice Details */
+    img.img-tender-1_1 {
+        width: 150px;
+        height: 100%;
+    }
+    .tender-1_2 {
+        padding: 15px 10px;
+    }
+    p.publish-date {
+        right: 10px;
+        top: 0;
     }
 }
 
@@ -193,6 +223,20 @@
     }
     .payment-detail ul {
         padding-left: 25px;
+    }
+
+
+    /* Notice Details */
+    img.img-tender-1_1 {
+        width: 170px;
+        height: 100%;
+    }
+    .tender-1_2 {
+        padding: 15px 10px;
+    }
+    p.publish-date {
+        right: 10px;
+        top: 0;
     }
 
 }
