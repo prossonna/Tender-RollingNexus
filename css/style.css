@@ -378,11 +378,50 @@ button.btn-plan {
 
 
 /* Notices Details */
-.tender-notices-wrap {
-    position: relative;
+.title-date-wrap {
+    display: flex; 
+    justify-content: space-between;
 }
-ul#pills-tab {
+.date-type {
+    margin: 50px 0 20px;
+    font-size: 15px;
+}
+.tender-notice-list {
+    padding: 10px;
+    box-shadow: 1px 2px 3px 2px #f1f1f1;
+    margin: 10px 0;
+    border: 2px solid transparent;
+}
+/* .tender-notice-list:hover {
+    box-shadow: 1px 2px 4px 1px #ff9a55;
+} */
+.tender-notice-list:hover {
+    border-left: 2px solid #FF9A54;
+}
+.tender-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.tender-1_1 {
+    display: flex;
+}
+.tender-img {
+    border: 1px solid #666;
+    padding: 4px;
+}
+img.img-tender-1_1 {
+    width: 130px;
+    height: 150px;
+}
+.tender-1_2 {
+    padding: 0 10px;
+}
+p.tender-title {
+    font-size: 15px;
+    color: #000;
+}
+p.publish-date {
+    color: #d21717;
     position: absolute;
-    top: 0;
-    right: 0;
+    right: 32px;
 }
