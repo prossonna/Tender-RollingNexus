@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/lightbox.min.css"> -->
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <title>Notices Details / Rolling Nexus</title>
+
+    <style>
+        img.img-table-tender {
+        width: 50px;
+        height: 60px;
+    }
+    .tender-notices-wrap td {
+        padding: 5px;
+    }
+    .tender-notices-wrap th {
+        padding: 5px;
+        text-align: center;
+        font-size: 14px;
+    }
+    tr:nth-child(odd) {
+        background: #f6f6f6;
+    }
+    .search-wrap-table {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        padding: 20px 5px;
+        background: #f1f1f1;
+        margin: 10px 0;
+    }
+.date-type {
+    margin: 50px 0 5px;
+    font-size: 15px;
+    padding: 5px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+span#adv-search-table i.fa.fa-search.fa-lg {
+    cursor: pointer;
+}
+.adv-search-category {
+    margin-left: 15px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.adv-search-category input[type="search"] {
+    border: 1px solid #666;
+    padding: 3px 10px;
+    outline: none;
+}
+button.btn-search-table {
+    border: none;
+    background: green;
+    color: #FFF;
+    padding: 4px 20px;
+    margin-left: 10px;
+}
+    </style>
+    
+</head>
+<body>
+
+    <section id="tender-notice">
+        <div class="container">
+            <div class="tender-notices-wrap">
+                <div class="title-date-wrap">
+                    <div class="category-heading-wrap2">
+                        <p class="category-heading-p2"><span class="r-t2"></span>Latest / Notices</p>
+                    </div>
+                    <div style="display: flex;">
+                        <div class="date-type">
+                            <input type="radio" value="1" name="language" id="date-select" > Nepali Date
+                            <input type="radio" value="2" name="language" id="date-select" checked="checked"> English Date
+                        </div>
+                        <span style="margin: 58px 0 20px 10px;" id="adv-search-table"><i class="fa fa-search fa-lg"></i></span>
+                    </div>
+                </div>
+                <div class="advance-search-wrap">
+                    <div class="search-wrap-table" style="display: none;">
+                        
+                        <div class="adv-search-category">
+                            <input type="search" name="" id="">
+                        </div>
+                        <div class="adv-search-category">
+                            <input type="search" name="" id="">
+                        </div>
+                        <div class="adv-search-category">
+                            <input type="search" name="" id="">
+                        </div>
+                        <div class="adv-search-category">
+                            <input type="search" name="" id="">
+                        </div>
+                        <div class="adv-search-category">
+                            <input type="search" name="" id="">
+                        </div>
+                        <div class="btn-search-tender-table">
+                            <button class="btn-search-table">Search</button>
+                        </div>
+                        <div class="adv-search-category">
+                            <input type="search" name="" id="">
+                        </div>
+                        <div class="adv-search-category">
+                            <input type="search" name="" id="">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row">
+                    <div class="col-lg-12 col-md-12 col-12">
+                        <div class="title-date-wrap">
+                            <div class="category-heading-wrap2">
+                                <p class="category-heading-p2"><span class="r-t2"></span>Latest / Notices</p>
+                            </div>
+                            <div class="date-type">
+                                <input type="radio" value="1" name="language" id="date-select" > Nepali Date
+                                <input type="radio" value="2" name="language" id="date-select" checked="checked"> English Date
+                            </div>
+                        </div>
+                        <div class="tender-notice-list-wrap">
+                            <div class="tender-notice-list">
+                                <div class="tender-1">
+                                    <div class="tender-1_1">
+                                        <div class="tender-img">
+                                            <img src="img/ten1.png" class="img-tender-1_1" alt="">
+                                        </div>
+                                        <div class="tender-1_2">
+                                            <p class="tender-title">Paropakar Maternity and Woman's Diseases Hospital</p>
+                                            <p class="tender-tagline">Government/ Ministries/ Departments</p>
+                                            <p>Notice Category: Award Notice || Product/Service: Real State</p>
+                                            <p class="tender-code">Tender Code : <span>Noioa-9683-21</span></p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam?</p>
+                                        </div>
+                                    </div>
+                                    <p class="publish-date"><i class="far fa-clock"></i> 3-22-2021</p>
+                                </div>
+                                <div class="tender-2">
+                                    
+                                </div>
+                            </div>
+                            <div class="tender-notice-list">
+                                <div class="tender-1">
+                                    <div class="tender-1_1">
+                                        <div class="tender-img">
+                                            <img src="img/ten1.png" class="img-tender-1_1" alt="">
+                                        </div>
+                                        <div class="tender-1_2">
+                                            <p class="tender-title">Paropakar Maternity and Woman's Diseases Hospital</p>
+                                            <p class="tender-tagline">Government/ Ministries/ Departments</p>
+                                            <p>Notice Category: Award Notice || Product/Service: Real State</p>
+                                            <p class="tender-code">Tender Code : <span>Noioa-9683-21</span></p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam?</p>
+                                        </div>
+                                    </div>
+                                    <p class="publish-date"><i class="far fa-clock"></i> 3-22-2021</p>
+                                </div>
+                                <div class="tender-2">
+                                    <p>lorem: Lorem, ipsum || lorem: Lorem, ipsum dolor || lorem: Veniam neque || lorem: Lorem, ipsum || lorem: Lorem, ipsum dolor</p>
+                                </div>
+                            </div>
+                            <div class="tender-notice-list">
+                                <div class="tender-1">
+                                    <div class="tender-1_1">
+                                        <div class="tender-img">
+                                            <img src="img/ten1.png" class="img-tender-1_1" alt="">
+                                        </div>
+                                        <div class="tender-1_2">
+                                            <p class="tender-title">Paropakar Maternity and Woman's Diseases Hospital</p>
+                                            <p class="tender-tagline">Government/ Ministries/ Departments</p>
+                                            <p>Notice Category: Award Notice || Product/Service: Real State</p>
+                                            <p class="tender-code">Tender Code : <span>Noioa-9683-21</span></p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam?</p>
+                                        </div>
+                                    </div>
+                                    <p class="publish-date"><i class="far fa-clock"></i> 3-22-2021</p>
+                                </div>
+                                <div class="tender-2">
+                                    
+                                </div>
+                            </div>
+                            <div class="tender-notice-list">
+                                <div class="tender-1">
+                                    <div class="tender-1_1">
+                                        <div class="tender-img">
+                                            <img src="img/ten1.png" class="img-tender-1_1" alt="">
+                                        </div>
+                                        <div class="tender-1_2">
+                                            <p class="tender-title">Paropakar Maternity and Woman's Diseases Hospital</p>
+                                            <p class="tender-tagline">Government/ Ministries/ Departments</p>
+                                            <p>Notice Category: Award Notice || Product/Service: Real State</p>
+                                            <p class="tender-code">Tender Code : <span>Noioa-9683-21</span></p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam?</p>
+                                        </div>
+                                    </div>
+                                    <p class="publish-date"><i class="far fa-clock"></i> 3-22-2021</p>
+                                </div>
+                                <div class="tender-2">
+                                    
+                                </div>
+                            </div>
+                            <div class="tender-notice-list">
+                                <div class="tender-1">
+                                    <div class="tender-1_1">
+                                        <div class="tender-img">
+                                            <img src="img/ten1.png" class="img-tender-1_1" alt="">
+                                        </div>
+                                        <div class="tender-1_2">
+                                            <p class="tender-title">Paropakar Maternity and Woman's Diseases Hospital</p>
+                                            <p class="tender-tagline">Government/ Ministries/ Departments</p>
+                                            <p>Notice Category: Award Notice || Product/Service: Real State</p>
+                                            <p class="tender-code">Tender Code : <span>Noioa-9683-21</span></p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam?</p>
+                                        </div>
+                                    </div>
+                                    <p class="publish-date"><i class="far fa-clock"></i> 3-22-2021</p>
+                                </div>
+                                <div class="tender-2">
+                                    <p>lorem: Lorem, ipsum || lorem: Lorem, ipsum dolor || lorem: Veniam neque || lorem: Lorem, ipsum || lorem: Lorem, ipsum dolor </p>
+                                </div>
+                            </div>
+                            <div class="tender-notice-list">
+                                <div class="tender-1">
+                                    <div class="tender-1_1">
+                                        <div class="tender-img">
+                                            <img src="img/ten1.png" class="img-tender-1_1" alt="">
+                                        </div>
+                                        <div class="tender-1_2">
+                                            <p class="tender-title">Paropakar Maternity and Woman's Diseases Hospital</p>
+                                            <p class="tender-tagline">Government/ Ministries/ Departments</p>
+                                            <p>Notice Category: Award Notice || Product/Service: Real State</p>
+                                            <p class="tender-code">Tender Code : <span>Noioa-9683-21</span></p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam?</p>
+                                        </div>
+                                    </div>
+                                    <p class="publish-date"><i class="far fa-clock"></i> 3-22-2021</p>
+                                </div>
+                                <div class="tender-2">
+                                    
+                                </div>
+                            </div>
+                            <div class="tender-notice-list">
+                                <div class="tender-1">
+                                    <div class="tender-1_1">
+                                        <div class="tender-img">
+                                            <img src="img/ten1.png" class="img-tender-1_1" alt="">
+                                        </div>
+                                        <div class="tender-1_2">
+                                            <p class="tender-title">Paropakar Maternity and Woman's Diseases Hospital</p>
+                                            <p class="tender-tagline">Government/ Ministries/ Departments</p>
+                                            <p>Notice Category: Award Notice || Product/Service: Real State</p>
+                                            <p class="tender-code">Tender Code : <span>Noioa-9683-21</span></p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam?</p>
+                                        </div>
+                                    </div>
+                                    <p class="publish-date"><i class="far fa-clock"></i> 3-22-2021</p>
+                                </div>
+                                <div class="tender-2">
+                                    
+                                </div>
+                            </div>
+                            <div class="tender-notice-list">
+                                <div class="tender-1">
+                                    <div class="tender-1_1">
+                                        <div class="tender-img">
+                                            <img src="img/ten1.png" class="img-tender-1_1" alt="">
+                                        </div>
+                                        <div class="tender-1_2">
+                                            <p class="tender-title">Paropakar Maternity and Woman's Diseases Hospital</p>
+                                            <p class="tender-tagline">Government/ Ministries/ Departments</p>
+                                            <p>Notice Category: Award Notice || Product/Service: Real State</p>
+                                            <p class="tender-code">Tender Code : <span>Noioa-9683-21</span></p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam?</p>
+                                        </div>
+                                    </div>
+                                    <p class="publish-date"><i class="far fa-clock"></i> 3-22-2021</p>
+                                </div>
+                                <div class="tender-2">
+                                    <p>lorem: Lorem, ipsum || lorem: Lorem, ipsum dolor || lorem: Veniam neque || lorem: Lorem, ipsum || lorem: Lorem, ipsum dolor</p>
+                                </div>
+                            </div>
+                            <div class="tender-notice-list">
+                                <div class="tender-1">
+                                    <div class="tender-1_1">
+                                        <div class="tender-img">
+                                            <img src="img/ten1.png" class="img-tender-1_1" alt="">
+                                        </div>
+                                        <div class="tender-1_2">
+                                            <p class="tender-title">Paropakar Maternity and Woman's Diseases Hospital</p>
+                                            <p class="tender-tagline">Government/ Ministries/ Departments</p>
+                                            <p>Notice Category: Award Notice || Product/Service: Real State</p>
+                                            <p class="tender-code">Tender Code : <span>Noioa-9683-21</span></p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam?</p>
+                                        </div>
+                                    </div>
+                                    <p class="publish-date"><i class="far fa-clock"></i> 3-22-2021</p>
+                                </div>
+                                <div class="tender-2">
+                                    
+                                </div>
+                            </div>
+                            <div class="tender-notice-list">
+                                <div class="tender-1">
+                                    <div class="tender-1_1">
+                                        <div class="tender-img">
+                                            <img src="img/ten1.png" class="img-tender-1_1" alt="">
+                                        </div>
+                                        <div class="tender-1_2">
+                                            <p class="tender-title">Paropakar Maternity and Woman's Diseases Hospital</p>
+                                            <p class="tender-tagline">Government/ Ministries/ Departments</p>
+                                            <p>Notice Category: Award Notice || Product/Service: Real State</p>
+                                            <p class="tender-code">Tender Code : <span>Noioa-9683-21</span></p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam?</p>
+                                        </div>
+                                    </div>
+                                    <p class="publish-date"><i class="far fa-clock"></i> 3-22-2021</p>
+                                </div>
+                                <div class="tender-2">
+                                    
+                                </div>
+                            </div>
+                            <div class="tender-notice-list">
+                                <div class="tender-1">
+                                    <div class="tender-1_1">
+                                        <div class="tender-img">
+                                            <img src="img/ten1.png" class="img-tender-1_1" alt="">
+                                        </div>
+                                        <div class="tender-1_2">
+                                            <p class="tender-title">Paropakar Maternity and Woman's Diseases Hospital</p>
+                                            <p class="tender-tagline">Government/ Ministries/ Departments</p>
+                                            <p>Notice Category: Award Notice || Product/Service: Real State</p>
+                                            <p class="tender-code">Tender Code : <span>Noioa-9683-21</span></p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam?</p>
+                                        </div>
+                                    </div>
+                                    <p class="publish-date"><i class="far fa-clock"></i> 3-22-2021</p>
+                                </div>
+                                <div class="tender-2">
+                                    <p>lorem: Lorem, ipsum || lorem: Lorem, ipsum dolor || lorem: Veniam neque || lorem: Lorem, ipsum || lorem: Lorem, ipsum dolor </p>
+                                </div>
+                            </div>
+                            <div class="tender-notice-list">
+                                <div class="tender-1">
+                                    <div class="tender-1_1">
+                                        <div class="tender-img">
+                                            <img src="img/ten1.png" class="img-tender-1_1" alt="">
+                                        </div>
+                                        <div class="tender-1_2">
+                                            <p class="tender-title">Paropakar Maternity and Woman's Diseases Hospital</p>
+                                            <p class="tender-tagline">Government/ Ministries/ Departments</p>
+                                            <p>Notice Category: Award Notice || Product/Service: Real State</p>
+                                            <p class="tender-code">Tender Code : <span>Noioa-9683-21</span></p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam?</p>
+                                        </div>
+                                    </div>
+                                    <p class="publish-date"><i class="far fa-clock"></i> 3-22-2021</p>
+                                </div>
+                                <div class="tender-2">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div> -->
+                <table role="presentation" cellpadding="0" cellspacing="0" border="1">
+                    <tr>
+                        <th>SN</th>
+                        <th>Notice Publisher</th>
+                        <th>Description</th>
+                        <th>Publish Date</th>
+                        <th>Submission Date</th>
+                        <th>Notice Category</th>
+                        <th>Industry</th>
+                        <th>Product/Service</th>
+                        <th>Days Left</th>
+                        <th>Notice Image</th>
+                    </tr>
+                    <tr valign="top">
+                        <td>1</td>
+                        <td>Paropakar Maternity and Woman's Diseases Hospital</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam?</td>
+                        <td>2021-3-23</td>
+                        <td>2021-4-22</td>
+                        <td>Award Notice</td>
+                        <td>Goverment | Ministry | Arms</td>
+                        <td>Construction Buildings</td>
+                        <td>30 days</td>
+                        <td><img src="img/ten1.png"  class="img-table-tender" alt=""></td>
+                    </tr>
+                    <tr valign="top">
+                        <td>2</td>
+                        <td>Paropakar Maternity and Woman's Diseases Hospital</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quisquam non hic labore perferendis minima quia ab ea, obcaecati cum.</td>
+                        <td>2021-3-23</td>
+                        <td>2021-4-22</td>
+                        <td>Award Notice</td>
+                        <td>Goverment | Ministry | Arms</td>
+                        <td>Construction Buildings</td>
+                        <td>30 days</td>
+                        <td><img src="img/ten1.png"  class="img-table-tender" alt=""></td>
+                    </tr>
+                    <tr valign="top">
+                        <td>3</td>
+                        <td>Paropakar Maternity and Woman's Diseases Hospital</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam?</td>
+                        <td>2021-3-23</td>
+                        <td>2021-4-22</td>
+                        <td>Award Notice</td>
+                        <td>Goverment | Ministry | Arms</td>
+                        <td>Construction Buildings</td>
+                        <td>30 days</td>
+                        <td><img src="img/ten1.png"  class="img-table-tender" alt=""></td>
+                    </tr>
+                    <tr valign="top">
+                        <td>4</td>
+                        <td>Paropakar Maternity and Woman's Diseases Hospital</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quisquam non hic labore perferendis minima quia ab ea, obcaecati cum.</td>
+                        <td>2021-3-23</td>
+                        <td>2021-4-22</td>
+                        <td>Award Notice</td>
+                        <td>Goverment | Ministry | Arms</td>
+                        <td>Construction Buildings</td>
+                        <td>30 days</td>
+                        <td><img src="img/ten1.png"  class="img-table-tender" alt=""></td>
+                    </tr>
+                    <tr valign="top">
+                        <td>5</td>
+                        <td>Paropakar Maternity and Woman's Diseases Hospital</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam?</td>
+                        <td>2021-3-23</td>
+                        <td>2021-4-22</td>
+                        <td>Award Notice</td>
+                        <td>Goverment | Ministry | Arms</td>
+                        <td>Construction Buildings</td>
+                        <td>30 days</td>
+                        <td><img src="img/ten1.png"  class="img-table-tender" alt=""></td>
+                    </tr>
+                    <tr valign="top">
+                        <td>6</td>
+                        <td>Paropakar Maternity and Woman's Diseases Hospital</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quisquam non hic labore perferendis minima quia ab ea, obcaecati cum.</td>
+                        <td>2021-3-23</td>
+                        <td>2021-4-22</td>
+                        <td>Award Notice</td>
+                        <td>Goverment | Ministry | Arms</td>
+                        <td>Construction Buildings</td>
+                        <td>30 days</td>
+                        <td><img src="img/ten1.png"  class="img-table-tender" alt=""></td>
+                    </tr>
+                    <tr valign="top">
+                        <td>7</td>
+                        <td>Paropakar Maternity and Woman's Diseases Hospital</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam?</td>
+                        <td>2021-3-23</td>
+                        <td>2021-4-22</td>
+                        <td>Award Notice</td>
+                        <td>Goverment | Ministry | Arms</td>
+                        <td>Construction Buildings</td>
+                        <td>30 days</td>
+                        <td><img src="img/ten1.png"  class="img-table-tender" alt=""></td>
+                    </tr>
+                    <tr valign="top">
+                        <td>8</td>
+                        <td>Paropakar Maternity and Woman's Diseases Hospital</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam? Lorem ipsum dolor</td>
+                        <td>2021-3-23</td>
+                        <td>2021-4-22</td>
+                        <td>Award Notice</td>
+                        <td>Goverment | Ministry | Arms</td>
+                        <td>Construction Buildings</td>
+                        <td>30 days</td>
+                        <td><img src="img/ten1.png"  class="img-table-tender" alt=""></td>
+                    </tr>
+                    <tr valign="top">
+                        <td>9</td>
+                        <td>Paropakar Maternity and Woman's Diseases Hospital</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, corrupti! Veniam neque doloremque ullam suscipit tempora rerum enim, eius aperiam?</td>
+                        <td>2021-3-23</td>
+                        <td>2021-4-22</td>
+                        <td>Award Notice</td>
+                        <td>Goverment | Ministry | Arms</td>
+                        <td>Construction Buildings</td>
+                        <td>30 days</td>
+                        <td><img src="img/ten1.png"  class="img-table-tender" alt=""></td>
+                    </tr>
+                    <tr valign="top">
+                        <td>10</td>
+                        <td>Paropakar Maternity and Woman's Diseases Hospital</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </td>
+                        <td>2021-3-23</td>
+                        <td>2021-4-22</td>
+                        <td>Award Notice</td>
+                        <td>Goverment | Ministry | Arms</td>
+                        <td>Construction Buildings</td>
+                        <td>30 days</td>
+                        <td><img src="img/ten1.png"  class="img-table-tender" alt=""></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+    <!-- <script>
+        var topLimit = $('#test1').offset().top;
+        
+        $(window).scroll(function() {
+            console.log('ws',$(window).scrollTop());
+        //console.log(topLimit <= $(window).scrollTop())
+        console.log('tl',topLimit)
+        if (topLimit <= $(window).scrollTop()) {
+            $('#test1').addClass('stickIt')
+        } else {
+            $('#test1').removeClass('stickIt')
+        }
+        });
+
+    </script> -->
+    <script type="text/javascript">
+        $('#adv-search-table').on('click',function(){
+            $('.search-wrap-table').slideToggle();
+        });
+        // $( "#book" ).slideToggle( "slow", function() {
+        //     // Animation complete.
+        // });
+    </script>
+</body>
+</html>

@@ -65,7 +65,8 @@ p.search-title {
     text-transform: uppercase;
 }
 .search-ten input[type="search"]::placeholder {
-    color: #e05c04;
+    /* color: #e05c04; */
+    color: #000;
     letter-spacing: 2px;
     font-size: 14px;
 }
