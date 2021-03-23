@@ -446,7 +446,7 @@ p.sidebar-title {
     padding: 5px;
 }
 .side-bar-content {
-    padding: 10px 5px;
+    padding: 10px 10px;
 }
 p.filter-category-title {
     font-size: 14px;
@@ -469,3 +469,8 @@ button.btn-filter-search {
     margin: 5px 0;
     outline: none;
 }
+
+#test1.stickIt {
+    position: sticky;
+    top: -400px;
+  }
