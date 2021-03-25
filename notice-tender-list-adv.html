@@ -46,13 +46,12 @@
         margin: 0px 0 10px;
         box-shadow: 1px 2px 2px 2px #e6e5e5;
     }
-    .date-type {
-    margin: 60px 0 0px;
+    .date-type-adv {
     font-size: 15px;
-    padding: 5px 5px 0;
+    padding: 10px 5px 8px;
     /* background: #f9f9f9; */
     border-radius: 5px;
-    height: 32px;
+    height: 40px;
     box-shadow: 1px 2px 3px 1px #e6e5e5;
 }
 span#adv-search-table i.fa.fa-search.fa-lg {
@@ -75,17 +74,22 @@ button.btn-search-table {
     padding: 4px 20px;
     margin-left: 10px;
 }
-span#adv-search-table {
-    margin: 60px 0px 0px 5px;
-    padding: 10px 10px 0px;
+button#adv-search-table {
     height: 32px;
     border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    padding: 5px 10px;
+    outline: none;
     box-shadow: 1px 2px 2px 2px #e6e5e5;
+    margin: 10px 0 7px;
 }
 .active{
     background-color: #e6e5e5;
-    padding: 10px 10px 32px !important;
+    padding: 5px 10px 42px !important;
     border-radius: 5px 5px 0 0;
+    margin: 10px 0 0 !important;
+}
 }
 .deactive{
     background-color: transparent;
@@ -102,6 +106,9 @@ span#adv-search-table {
 }
 p.date-picker-to {
     margin-top: 12px;
+}
+.middle-section-tender-table .bootstrap-select .dropdown-menu.inner {
+    padding: 10px;
 }
 .middle-section-tender-table button.btn.dropdown-toggle.btn-light {
     outline: none !important;
@@ -152,13 +159,88 @@ button.btn-search-cancel {
     font-size: 14px;
     font-weight: 600;
 }
-span#adv-search-table {
-    font-size: 14px;
-    cursor: pointer;
-}
+
 .table-container {
     overflow-x: auto;
 }
+.date-hide-search-wrap {
+    display: flex;
+}
+
+input[type="search"] {
+    border: none;
+    outline: none;
+    padding: 9px;
+}
+.hover-search-wrap {
+    padding: 0px 0 0 10px;
+    margin-left: 10px;
+    box-shadow: 1px 2px 3px 3px #f1f1f1;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 40px !important;
+}
+.adv-search-show-entities {
+    display: flex;
+}
+.show-entities {
+    margin: 17px 10px;
+}
+.show-entities select {
+    width: 80px;
+}
+.date-section {
+    display: flex; 
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .date-section {
+        display: flow-root;
+    }
+    .date-hide-search-wrap {
+        display: flow-root;
+        padding: 10px;
+    }
+    .hover-search-wrap {
+        margin: 10px 0;
+    }
+    button#adv-search-table {
+        padding: 0 5px;
+        margin-right: 3px;
+    }
+    .adv-search-show-entities {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    .date-section {
+        display: flow-root;
+    }
+    .date-hide-search-wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+    .adv-search-show-entities {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .date-section {
+        display: flow-root;
+    }
+    .date-hide-search-wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+    .adv-search-show-entities {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
     </style>
 </head>
 <body>
@@ -166,97 +248,35 @@ span#adv-search-table {
     <section id="tender-notice">
         <div class="container">
             <div class="tender-notices-wrap">
-                <div class="row">
-                    <!-- <div class="col-lg-3 col-md-3 col-12">
-                        <div id="test1">
-                            <div class="test2">
-                                <div class="sidebar-filter">
-                                    <p class="sidebar-title">Filter Your Search</p>
-                                    <div class="side-bar-content">
-                                        <div class="filter-category">
-                                            <p class="filter-category-title">Free Text</p>
-                                            <input type="text" name="" id="">
-                                        </div>
-                                        <div class="filter-category">
-                                            <p class="filter-category-title">Published Date</p>
-                                            <input type="text" name="" id="">
-                                        </div>
-                                        <div class="filter-category">
-                                            <p class="filter-category-title">Industry</p>
-                                            <input type="text" name="" id="">
-                                        </div>
-                                        <div class="filter-category">
-                                            <p class="filter-category-title">Notice Category</p>
-                                            <input type="text" name="" id="">
-                                        </div>
-                                        <div class="filter-category">
-                                            <p class="filter-category-title">Product / Service</p>
-                                            <input type="text" name="" id="">
-                                        </div>
-                                        <div class="btn-filter">
-                                            <button class="btn-filter-search">Filter Now</button>
-                                        </div>
-
-                                        
-
-
-
-                                        <div class="filter-category">
-                                            <p class="filter-category-title">Notice Category</p>
-                                            <input type="text" name="" id="">
-                                        </div>
-                                        <div class="filter-category">
-                                            <p class="filter-category-title">Product / Service</p>
-                                            <input type="text" name="" id="">
-                                        </div>
-                                        <div class="filter-category">
-                                            <p class="filter-category-title">Notice Category</p>
-                                            <input type="text" name="" id="">
-                                        </div>
-                                        <div class="filter-category">
-                                            <p class="filter-category-title">Product / Service</p>
-                                            <input type="text" name="" id="">
-                                        </div>
-                                        <div class="filter-category">
-                                            <p class="filter-category-title">Notice Category</p>
-                                            <input type="text" name="" id="">
-                                        </div>
-                                        <div class="filter-category">
-                                            <p class="filter-category-title">Product / Service</p>
-                                            <input type="text" name="" id="">
-                                        </div>
-                                        <div class="filter-category">
-                                            <p class="filter-category-title">Notice Category</p>
-                                            <input type="text" name="" id="">
-                                        </div>
-                                        <div class="filter-category">
-                                            <p class="filter-category-title">Product / Service</p>
-                                            <input type="text" name="" id="">
-                                        </div>
-                                        <div class="filter-category">
-                                            <p class="filter-category-title">Notice Category</p>
-                                            <input type="text" name="" id="">
-                                        </div>
-                                        <div class="filter-category">
-                                            <p class="filter-category-title">Product / Service</p>
-                                            <input type="text" name="" id="">
-                                        </div>
+                <div class="row"><div style="width: 100%;">
+                        <div class="title-date-wrap">
+                            <div class="category-heading-wrap">
+                                <p class="category-heading-p">latest Tender / Notices</p>
+                                <hr style="border-top: 4px solid #FF9A55; width: 10%;">
+                            </div>
+                            <div class="date-section">
+                                <div class="date-hide-search-wrap">
+                                    <div class="date-type-adv">
+                                        <input type="radio" value="1" name="language" id="date-select" > Nepali Date
+                                        <input type="radio" value="2" name="language" id="date-select" checked="checked"> English Date
+                                    </div>
+                                    <div class="hover-search-wrap">
+                                        <i class="fa fa-search"></i><input type="search" name="search" placeholder="Search.." id="search-input">
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    <div style="width: 100%;">
-                        <div class="title-date-wrap">
-                            <div class="category-heading-wrap2">
-                                <p class="category-heading-p2"><span class="r-t2"></span>Latest / Notices</p>
-                            </div>
-                            <div style="display: flex;">
-                                <div class="date-type">
-                                    <input type="radio" value="1" name="language" id="date-select" > Nepali Date
-                                    <input type="radio" value="2" name="language" id="date-select" checked="checked"> English Date
+                                <div class="adv-search-show-entities">
+                                    <div class="show-entities">
+                                        <label for="cars">Show</label>
+                                            <select name="tender-list" id="tender-adv-list-select">
+                                                <option value="1">10</option>
+                                                <option value="2">25</option>
+                                                <option value="3">50</option>
+                                                <option value="4">100</option>
+                                            </select>
+                                        <label for="cars">entities</label>
+                                    </div>
+                                    <button id="adv-search-table"><i class="fas fa-bars"></i> Advance Search</button> 
                                 </div>
-                                <span id="adv-search-table"><i class="fa fa-search fa-lg"></i> Advance Search</span>
                             </div>
                         </div>
                         <div class="advance-search-wrap">
@@ -631,16 +651,21 @@ span#adv-search-table {
         $('#adv-search-table').on('click',function(){
             $('.search-wrap-table').slideToggle();
             $(this).toggleClass("active");
-            $('.date-type').toggleClass("deactive"); 
+            $('.date-type-adv').toggleClass("deactive"); 
         });
 
         $(function () {
-            $('select').selectpicker();
+            $('.selectpicker').selectpicker();
         });
         $('#tender-btn-cancel').on('click', function(){
             $('.search-wrap-table').hide('2000');
             $('#adv-search-table').toggleClass("active"); 
         });
+
+        // $('.hover-search-wrap').on('click',function(){
+        //     $('#search-input').slideToggle();
+        //     $(this).toggleClass("show-search-input");
+        // });
     
     });
 
