@@ -1,4 +1,13 @@
 @media only screen and (max-width: 600px) {
+    .tender-banner-left {
+        padding-top: 100%;
+        margin-top: 15%;
+    }
+    .banner-bg {
+        max-height: unset;
+        height: auto;
+        background-size: contain!important;
+    }
     .banner-content {
         padding-top: 100px;
     }
@@ -90,6 +99,14 @@
     }
 }
 @media only screen and (min-width: 601px) and (max-width: 767px) {
+    .tender-banner-left {
+        padding-top: 100%;
+        margin-top: 50%;
+    }
+    .banner-bg {
+        max-height: unset;
+        height: auto;
+    }
     .rolling-tender-image {
         text-align: center;
     }
@@ -148,8 +165,113 @@
         top: 0;
     }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .tender-banner-left {
+        padding-top: 100%;
+        margin-top: 50%;
+    }
+    .banner-bg {
+        max-height: unset;
+        height: auto;
+    }
+    .vdo-sec {
+        padding-left: 10px;
+    }
+    .vdo-sec iframe {
+        width: 100%;
+        height: 365px;
+    }
+    .bs-example {
+        height: 350px;
+        width: 100%;
+    }
+    a.btn.btn-primary.btn-lg {
+        top: 55%;
+        left: 46%;
+    }
+    .divider {
+        display: none;
+    }
+    .t-benefits-wrap {
+        height: 180px;
+    }
+    .rolling-tender-outer {
+        border: 3px solid #000;
+        height: 250px;
+        position: absolute;
+        width: 90%;
+        z-index: -1;
+        right: 0;
+        top: 70px;
+    }
+    .rolling-tender-image {
+        position: relative;
+        padding-top: 60px;
+    }
+    img.img-rolling-tender {
+        width: 90%;
+        height: 300px;
+        background-size: cover;
+        padding-top: 50px;
+    }
+    .img-notices {
+        width: 100%;
+        height: 140px;
+    }
+    .notices {
+        display: flow-root;
+        height: 300px;
+    }
+    .tender-use-img {
+        text-align: center;
+    }
+    img.img-tender-use {
+        width: 70%;
+    }
+    .bnr-search {
+        padding: 10px 20px;
+    }
+    img.img-btn-search {
+        width: 50px;
+        height: 60px;
+    }
+    .payment-heading-box {
+        width: 111%;
+    }
+    .payment-plan-wrap1, .payment-plan-wrap2, .payment-plan-wrap3 {
+        width: 95%;
+    }
+    img.img-payment-plan {
+        width: 100px;
+        height: 100px;
+    }
+    .payment-detail ul {
+        padding-left: 25px;
+    }
 
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+    /* Notice Details */
+    img.img-tender-1_1 {
+        width: 170px;
+        height: 100%;
+    }
+    .tender-1_2 {
+        padding: 15px 10px;
+    }
+    p.publish-date {
+        right: 10px;
+        top: 0;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .tender-banner-left {
+        padding-top: 100%;
+        margin-top: 800px;
+    }
+    .banner-bg {
+        max-height: unset;
+        height: auto;
+    }
     .vdo-sec {
         padding-left: 10px;
     }
