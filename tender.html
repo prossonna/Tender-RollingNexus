@@ -59,9 +59,84 @@
             </div>
         </div>
     </section> -->
+    <header class="header-bar">
+        <nav class="navbar navbar-expand-lg navbar-light transparent-white fixed-top main-nav2">
+          <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/rolling-tender.png" alt="virtual exhibition" class="img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--  MAIN MENU  -->
+            <div class="collapse navbar-collapse e-respmenu" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Job</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tender</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Freelance</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    कर्मशील
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                    <a class="dropdown-item" href="#">कर्मशील विदेश</a>
+                    <a class="dropdown-item" href="#">कर्मशील स्वदेश</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active-btn" href="#">Cat</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Event
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                    <a class="dropdown-item" href="#">Event</a>
+                    <a class="dropdown-item" href="#">Counselling</a>
+                    <a class="dropdown-item" href="#">Class Room</a>
+                    <a class="dropdown-item" href="#">Enroll</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Others
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                    <a class="dropdown-item" href="#">Contest</a>
+                    <a class="dropdown-item" href="#">Sports Prediction</a>
+                    <a class="dropdown-item" href="#">Quiz</a>
+                    <a class="dropdown-item" href="#">Refer and Earn</a>
+                    <a class="dropdown-item" href="#">Blog</a>
+                    <a class="dropdown-item" href="#">Rolling Women</a>
+                    <a class="dropdown-item" href="#">Rolling Able</a>
+                    <a class="dropdown-item" href="#">Rolling Yet To Retire</a>
+                    <a class="dropdown-item" href="#">Rolling Chhalfal</a>
+                  </div>
+                </li>
+              </ul>
+              <div class="inner white-color">
+                <button class="ind-btn"><i class="fa fa-user"></i>
+                  Individual
+                </button>
+                <button class="buz-btn"><i class="fa fa-briefcase"></i>
+                  Business
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- Navigation End -->
+      </header>
 
     <section id="tender-banners">
-        <div class="banner-bg" style="background-image: url('img/tender-banner.png')">
+        <div class="banner-bg" style="background-image: url('img/Layer_2.png')">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 col-md-12 col-12">
@@ -70,19 +145,111 @@
                             <p class="tender-banner-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, provident. Dolorem praesentium reprehenderit aperiam fugit magni blanditiis necessitatibus voluptatum sit obcaecati fugiat itaque velit hic, tempora mollitia, nulla quas minima.</p>
 
                             <div class="btn-banner-wrap">
-                                <a href="#member"><button class="btn-banner">Become Member</button></a>
+                                <a href="#"><button class="btn-banner" data-toggle="modal" data-target=".bd-example-modal-lg">Become Member</button></a>
+                            </div>
+                            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                          </div>
+                                        <div class="payment-plan" style="padding-top:0;">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-4 col-12">
+                                                    <div class="payment-plan-wrap1">
+                                                        <div class="payment-heading-box">
+                                                            <p class="payment-heading-p">startup </p>
+                                                        </div>
+                                                        <div class="payment-detail">
+                                                            <div class="payment-plan-img">
+                                                                <img class="img-payment-plan" src="img/startup.png" alt="">
+                                                            </div>
+                                                            <hr style="width: 50%; border-top: 2px solid #ff9a55;">
+                                                            <!-- <ul>
+                                                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consequatur aperiam placeat temporibus dolores?</li>
+                                                                <li>Lorem ipsum dolor sit amet.</li>
+                                                                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                                                            </ul> -->
+                                                            <div class="plan-category">
+                                                                <p style="font-style: italic; text-align: right;">12 Months Package</p>
+                                                                <p style="color: #097bf1; text-align: center;">Rs <span style="font-size: 22px;"><del>3500</del></span></p>
+                                                            </div>
+                                                            <p style="padding: 0 20px; font-style: italic; font-size: 16px; color: #3ea23e;">Now available on:</p>
+                                                            <p style="padding: 0 20px;">10% discount</p>
+                                                            <p style="padding: 0 20px;">Monthly Rs. 280</p>
+                                                            <div class="payment-rate">
+                                                                <p class="payment-r"><span class="payment-sign">Rs.</span>3200</p>
+                                                            </div>
+                                                            <div class="btn-payment-plan">
+                                                                <button class="btn-plan">get started</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-12">
+                                                    <div class="payment-plan-wrap2">
+                                                        <div class="payment-heading-box">
+                                                            <p class="payment-heading-p">professional </p>
+                                                        </div>
+                                                        <div class="payment-detail">
+                                                            <div class="payment-plan-img">
+                                                                <img class="img-payment-plan" src="img/shield.png" alt="">
+                                                            </div>
+                                                            <hr style="width: 50%; border-top: 2px solid #ff9a55;">
+                                                            <ul>
+                                                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consequatur aperiam placeat temporibus dolores?</li>
+                                                                <li>Lorem ipsum dolor sit amet.</li>
+                                                                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                                                            </ul>
+                                                            <div class="payment-rate">
+                                                                <p class="payment-r"><span class="payment-sign">$</span>49 / month</p>
+                                                            </div>
+                                                            <div class="btn-payment-plan">
+                                                                <button class="btn-plan">get started</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-12">
+                                                    <div class="payment-plan-wrap3">
+                                                        <div class="payment-heading-box">
+                                                            <p class="payment-heading-p">premium </p>
+                                                        </div>
+                                                        <div class="payment-detail">
+                                                            <div class="payment-plan-img">
+                                                                <img class="img-payment-plan" src="img/premium.png" alt="">
+                                                            </div>
+                                                            <hr style="width: 50%; border-top: 2px solid #ff9a55;">
+                                                            <ul>
+                                                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consequatur aperiam placeat temporibus dolores?</li>
+                                                                <li>Lorem ipsum dolor sit amet.</li>
+                                                                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                                                            </ul>
+                                                            <div class="payment-rate">
+                                                                <p class="payment-r"><span class="payment-sign">$</span>49 / month</p>
+                                                            </div>
+                                                            <div class="btn-payment-plan">
+                                                                <button class="btn-plan">get started</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-7 col-md-7 col-12">
-                        <div class="banner-img-section">
-                            <img class="banner-img" src="img/tender-banner.png" alt="">
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
     </section>
+
+    
 
     <section id="tender-notice">
         <div class="container">
@@ -329,7 +496,7 @@
     </section>
 
     <section id="tender-plan">
-        <div class="container" id="member">
+        <div class="container">
             <div class="tender-plan-wrap">
                 <div class="category-heading-wrap">
                     <p class="category-heading-p">what benefits you'll get ?</p>
@@ -426,6 +593,105 @@
             </div>
         </div>
     </section>
+
+    <footer style="padding: 50px 0;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 col-12">
+              <div class="content-title btm20p">
+                <h3 class="whitecolor">Rolling Nexus</h3>
+              </div>
+              <p>Rolling Nexus is one of the major offerings and new upshot of Rolling Plans, envisioned with an oath and action to be a leader in linking people to each other, compounding with jobs, tenders, projects, events and skill development and enhancement activities. With the mission of accelerating the connections between employer to job-seeker, business...</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-6">
+              <div class="content-title btm20p">
+                <h3 class="whitecolor">Information</h3>
+              </div>
+              <div class="ftr-information">
+                <ul>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Media</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-6">
+              <div class="content-title btm20p">
+                <h3 class="whitecolor">Individual</h3>
+              </div>
+              <div class="ftr-individual">
+                <ul>
+                  <li><a href="#">Register</a></li>
+                  <li><a href="#">Search Jobs</a></li>
+                  <li><a href="#">Login</a></li>
+                  <li><a href="#">JOBS FAQ</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-6">
+              <div class="content-title btm20p">
+                <h3 class="whitecolor">Business</h3>
+              </div>
+              <div class="ftr-business">
+                <ul>
+                  <li><a href="#">Post a Job</a></li>
+                  <li><a href="#">Register</a></li>
+                  <li><a href="#">Login</a></li>
+                  <li><a href="#">JOBS FAQ</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-6">
+              <div class="content-title btm20p">
+                <h3 class="whitecolor">Contact Us</h3>
+              </div>
+              <div class="ftr-contact">
+                  <ul>
+                    <li><a href="#">Bizulibazar, Kathmandu, Nepal</a></li>
+                    <li><a href="#">+977 9802 365 24 7</a></li>
+                    <li><a href="#">+977 9858 365 24 7</a></li>
+                    <li><a href="#">support@rollingnexus.com</a></li>
+                  </ul>
+              </div>
+              <div class="social-icon">
+                    <a href="https://www.facebook.com/RollingNexusNepal/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/rollingnexus/"><i class="fab fa-instagram"></i></a> 
+                    <a href="https://twitter.com/rollingnexus"><i class="fab fa-twitter"></i></a> 
+                    <a href="https://www.linkedin.com/company/rollingnexus/"><i class="fab fa-linkedin"></i></a> 
+                    <a href="https://invite.viber.com/?g2=AQBZiNAYm%2B6EsUwkBXYb25cHI3K82fZ%2BBmhzxAtSgyyEp9cIcJ2W5UjVXN9nerLr"><i class="fab fa-viber"></i></a> 
+              </div>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-6 col-md-6 col-12">
+                    <div class="mobile-app-wrap">
+                        <div class="content-title">
+                            <h3 class="mobile-app">Rolling Nexus Mobile App</h3>
+                        </div>
+                        <div class="fbuttons"> 
+                            <a class="fappstore-button" href="https://apps.apple.com/app/id1550709920" target="_blank"><img src="img/googleplay.png" alt="Google Play Store Button" class=" ls-is-cached lazyloaded" src="https://www.rollingnexus.com/images/appstore.webp"></a> 
+                            <a class="fappstore-button" target="_blank" href="https://play.google.com/store/apps/details?id=np.com.rollingplans.rolling_nexus"><img src="img/appstore.png" class=" ls-is-cached lazyloaded" src="https://www.rollingnexus.com/images/playstore2.webp"></a>
+                            <a class="fappstore-button" target="_blank" href="https://play.google.com/store/apps/details?id=np.com.rollingplans.rolling_nexus"><img src="img/ANDROID.png" class=" ls-is-cached lazyloaded" src="https://www.rollingnexus.com/images/playstore2.webp"></a> 
+                        </div>
+                    </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-12">
+                    <div class="payment-wrap">
+                        <div class="content-title">
+                            <h3 class="payment-title">Payment Partners</h3>
+                        </div>
+                        <div class="fbuttons-payments">
+                            <a href=""><img src="img/esewa.png"></a>
+                            <a href=""><img src="img/khalti.png"></a>
+                        </div>
+                    </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </footer>
     
 
 
@@ -436,7 +702,18 @@
     <script src="Js/lightbox.min.js"></script> -->
     <script src="magnific-popup/jquery.magnific-popup.js"></script>
 
-    
+    <script type="text/javascript">
+        /* ----------------------------------------------------------- */
+        /*  Fixed header
+        /* ----------------------------------------------------------- */
+        $(window).on('scroll', function () {
+          if ($(window).scrollTop() > 70) {
+            $('.transparent-white').addClass('top-nav-collapse');
+          } else {
+            $('.transparent-white').removeClass('top-nav-collapse');
+          }
+        });
+      </script>
     <script>
         $(document).ready(function(){
             /* Get iframe src attribute value i.e. YouTube video url
@@ -455,7 +732,7 @@
                 $("#cartoonVideo").attr('src', url);
             });
         });
-        </script>
+    </script>
 
 </body>
 </html>
